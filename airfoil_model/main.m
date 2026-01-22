@@ -6,5 +6,5 @@ p.V = 30;
 p.chord = 0.25;
 p.span = 1.0;   % 2D: per meter span
 
-out = airfoilLiftBasic(p);
+out = airfoil_sim(p);
 disp(out)
